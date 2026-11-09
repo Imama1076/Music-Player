@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/e468b59501.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="container2">
+        <button id="back-btn" >
+        <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <h1 class="song-header">Songs</h1>
+        <div class="selection-section">
+        <button class="song-option-btn"  data-singer="Faheem Abdullah ft. Rauhan Malik" data-src="songs/pal-pal.mpeg">Pal Pal</button>
+       <button  class="song-option-btn"  data-singer="Amir Ameer" data-src="songs/ishq.mpeg">Ishq</button>
+       <button  class="song-option-btn"  data-singer="Maanu ft. Annural Khalid" data-src="songs/jhol.mpeg">Jhol</button>
+       <button  class="song-option-btn"  data-singer="Bilal Saeed ft. Momina Mustehsan" data-src="songs/bari.mpeg">Baari</button>
+       <button  class="song-option-btn"  data-singer="Rahat Fateh Ali Khan ft. Momina Mustehsan" data-src="songs/afreen.mpeg">Afreen Afreen</button>
+       <button  class="song-option-btn"  data-singer="Anuv Jain" data-src="songs/arz-kiya-ha.mpeg">Arz Kiya Hai</button>
+       <button  class="song-option-btn"  data-singer="Anuv Jain" data-src="songs/jo-tm-mere-ho.mpeg">Jo Tum Mere Ho</button>
+       <button  class="song-option-btn"  data-singer="Arijit Singh ft. Shilpa Rao" data-src="songs/tere-hawale.mpeg">Tere Hawaale</button>
+       <button  class="song-option-btn"  data-singer="Arijit Singh" data-src="songs/aey-dil-muskil.mpeg">Ae Dil Hai Mushkil</button>
+       <button  class="song-option-btn"  data-singer="Arijit Singh"data-src="songs/dhondhne-ko-uske-dil-me.mpeg">Muskurane</button>
+       <button  class="song-option-btn"  data-singer="Christina Perri"data-src="songs/thousand-years.mpeg">A Thousand Years</button>
+       <button  class="song-option-btn"  data-singer="Witt Lowry ft. Ava Max"data-src="songs/into-your-arms.mpeg">Into Your Arms</button>
+       <button  class="song-option-btn"  data-singer="Lady Gaga ft. Bruno Mars"data-src="songs/die-with-smile.mpeg">Die With A Smile</button>
+       <button  class="song-option-btn"  data-singer="One Direction"data-src="songs/night-changes.mpeg">Night Changes</button>
+       <button  class="song-option-btn"  data-singer="Billie Eilish ft. Khalid"data-src="songs/lovely.mpeg">Lovely</button>
+       <button  class="song-option-btn"  data-singer="Alan Walker ft. K-391 & Emelie Hollow"data-src="songs/lily.mpeg">lily</button>
+       <button  class="song-option-btn"  data-singer="Emin ft. JONY"data-src="songs/kaminh.mpeg">Камин (Kamin)</button>
+       <button  class="song-option-btn"  data-singer="Maid ft. Oumaima"data-src="songs/al-nacer.mpeg">Al Nacer (Triumph)</button> 
+    </div>
+    </div>
+    <div class="container3" style="display: none;">
+        <div class="selection-header">
+        <button id="back-btn2"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="music-player-control">
+        <div class="thumbnail-logo"></div>
+        <p class="thumnail-song-details">Jhol</p>
+        <p class="thumnail-singer-details">Coke Studio</p>
+        <input type="range" name="progress" id="progress" value="0">
+        <div class="control-btn">
+             <button class="backward-btn cntrl-btn"><i class="fa-solid fa-backward"></i></button>
+              <button class="play-btn cntrl-btn"><i class="fa-solid fa-pause" id="play"></i></button>
+              <button class="forward-btn cntrl-btn"><i class="fa-solid fa-forward"></i></button>
+             
+        </div>
+               </div>
+                      </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
